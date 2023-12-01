@@ -33,7 +33,9 @@ struct SignupView: View {
         self.isUsernameValid = true
         self.library = [BookModel]()
         self.wishlist = [BookModel]()
-        self.user = UserModel(username: "", email: "", password: "", accountID: "", library:[BookModel](), wishlist: [BookModel]())
+        self.user = UserModel(username: "", email: "", password: "", accountID: "")
+        
+//        , library:[BookModel](), wishlist: [BookModel]()
         
     }
     

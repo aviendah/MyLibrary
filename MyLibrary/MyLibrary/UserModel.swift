@@ -15,8 +15,8 @@ struct UserModel : Codable, Identifiable {
     var email : String
     var password : String
     var accountID : String
-    var library : [BookModel]
-    var wishlist : [BookModel]
+//    var library : [BookModel]
+//    var wishlist : [BookModel]
 }
 
 struct BookModel : Codable, Identifiable {

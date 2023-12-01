@@ -46,6 +46,7 @@ import Foundation
             } catch {
                 self.hasError.toggle()
                 self.error = BookModelError.customError(error: error)
+                print(url)
             }
         }
 
@@ -63,6 +64,7 @@ extension BooksViewModel {
                 return "Decoding Error"
             case .customError(let error):
                 return error.localizedDescription
+
             }
         }
 
